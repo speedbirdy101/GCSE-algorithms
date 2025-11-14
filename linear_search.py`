@@ -1,0 +1,15 @@
+names = ["keadle", "william", "juan", "tibinia", "motvee", "lenud", "aarish", "hp", "gog", "cuba"]
+
+
+# Linear search
+to_find = "william"
+found = False
+i = 0
+while not found and i < len(names):
+    name = names[i]
+    if name.lower() == to_find.lower():
+        found = True
+        print(f"Found {name} at index {i}")
+      
+    i += 1
+  
